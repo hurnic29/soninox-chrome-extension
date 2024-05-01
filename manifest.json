@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "GaroMultitools",
+    "description": "Garo Multitools",
+    "version": "1.0",
+    "icons": {
+        "16": "./icon/icon_16x16.png"
+        // "48": "icon/icon_48x48.png",
+        // "128": "icon/icon_128x128.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Garo it!"
+        // "default_icon": "icon/icon_48x48.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    // "content_scripts": [
+    //     {
+    //         "js": [
+    //             "content.js"
+    //         ],
+    //         "matches": [
+    //             "*://*/*"
+    //         ]
+    //     }
+    // ],
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "contextMenus",
+        "tts"
+    ]
+}
