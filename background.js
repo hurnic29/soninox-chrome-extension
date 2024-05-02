@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(function (details) {
   /* コンテキストメニューを作成 */
   const parent = chrome.contextMenus.create({
     id: "share",
-    title: "ページを共有",
+    title: "Sonionx",
     contexts: ["all"],
   });
 
